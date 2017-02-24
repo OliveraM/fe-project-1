@@ -1,0 +1,29 @@
+{
+  "name": "fe-project-1",
+  "description": "fe project init 1",
+  "main": "index.js",
+  "authors": [
+    "oliveram banem"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "bower",
+    "gulp"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "dependencies": {
+    "angular": "^1.6.2"
+  }
+}

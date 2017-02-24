@@ -1,0 +1,22 @@
+{
+  "name": "fe-project-1",
+  "version": "1.0.0",
+  "description": "fe project init 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "bower",
+    "gulp"
+  ],
+  "author": "oliveram banem",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
