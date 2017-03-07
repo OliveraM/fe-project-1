@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-controller="FunCtrl as fun">
+<!--	<welcome></welcome> 
+	<div welcome-attr goodbye-attr></div> -->
+<!--	<div entering="activeClass" leaving>Hover over me</div> -->
+	<div entering="fun.end()" leaving>Hover over me</div>
+	
+	<welcome hello howdy hi>Say something</welcome>
+
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="js/app/directivesCtrl.js"></script>
+	<script src="js/app/controllers/controller.js"></script>
+	<script src="js/app/controllers/fun.js"></script>
+	<script src="js/app/directives/entering.js"></script>
+	<script src="js/app/directives/goodbyeAttr.js"></script>
+	<script src="js/app/directives/hello.js"></script>
+	<script src="js/app/directives/hi.js"></script>
+	<script src="js/app/directives/howdy.js"></script>
+	<script src="js/app/directives/leaving.js"></script>
+	<script src="js/app/directives/welcome.js"></script>
+	<script src="js/app/directives/welcomeAttr.js"></script>
+	<script src="js/app/filters/capitalize.js"></script>
+	<script src="js/app/filters/reverse.js"></script>
+</body>
+</html>

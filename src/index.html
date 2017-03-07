@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainModule">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Document</title>
+</head>
+<body ng-controller="MainCtrl">
+	
+	<div ng-include="'templates/capitalize.ng.html'"></div>
+
+	<div ng-include="'templates/search.ng.html'"></div>
+
+	<div ng-include="'templates/order-by.ng.html'"></div>
+
+	<div ng-include="'templates/limit-to.ng.html'"></div>
+
+	<div ng-include="'templates/reverse.ng.html'"></div>
+
+	<div ng-include="'templates/chaining.ng.html'"></div> 
+	
+	<script src="../bower_components/angular/angular.js" ></script>
+	<script src="js/app/app.module.js"></script>
+	<script src="js/app/controllers/controller.js"></script>
+	<script src="js/app/controllers/fun.js"></script>
+	<script src="js/app/directives/entering.js"></script>
+	<script src="js/app/directives/goodbyeAttr.js"></script>
+	<script src="js/app/directives/hello.js"></script>
+	<script src="js/app/directives/hi.js"></script>
+	<script src="js/app/directives/howdy.js"></script>
+	<script src="js/app/directives/leaving.js"></script>
+	<script src="js/app/directives/welcome.js"></script>
+	<script src="js/app/directives/welcomeAttr.js"></script>
+	<script src="js/app/filters/capitalize.js"></script>
+	<script src="js/app/filters/reverse.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+	<div id="FilterSearch">
+		<h3>Filter search</h3>
+		<input type="text" ng-model="search"/>
+		<p ng-repeat="person in people | filter:search">
+			{{person.name}}
+		</p>
+		<hr>
+	</div>

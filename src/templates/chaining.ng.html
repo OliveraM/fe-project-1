@@ -1,0 +1,6 @@
+	<div id="chainingFilters">
+		<h3>Chaining filters - using filter search input</h3>
+		<p ng-repeat="person in people  | filter: search | orderBy: 'name' | limitTo:2">
+			{{person.name}}
+		</p>
+	</div>
