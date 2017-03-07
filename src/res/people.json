@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "58bf1dd78522e7ed41b6b000",
+    "index": 0,
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "Adams Golden",
+    "gender": "male",
+    "company": "RAMEON",
+    "email": "adamsgolden@rameon.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Merle Weber"
+      },
+      {
+        "id": 1,
+        "name": "Macdonald Emerson"
+      },
+      {
+        "id": 2,
+        "name": "Haynes Casey"
+      }
+    ],
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58bf1dd7c85b4904412c5160",
+    "index": 1,
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Lana Savage",
+    "gender": "female",
+    "company": "OPTIQUE",
+    "email": "lanasavage@optique.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mueller Hayden"
+      },
+      {
+        "id": 1,
+        "name": "Gretchen Holman"
+      },
+      {
+        "id": 2,
+        "name": "Nadia Dickerson"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "58bf1dd7bdd8621bb9171161",
+    "index": 2,
+    "age": 33,
+    "eyeColor": "brown",
+    "name": "Lou Lyons",
+    "gender": "female",
+    "company": "OTHERSIDE",
+    "email": "loulyons@otherside.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Earnestine Mcleod"
+      },
+      {
+        "id": 1,
+        "name": "Wanda Harmon"
+      },
+      {
+        "id": 2,
+        "name": "Tamika Mcdonald"
+      }
+    ],
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58bf1dd71d8bb6d1a65ba967",
+    "index": 3,
+    "age": 33,
+    "eyeColor": "brown",
+    "name": "Sullivan Dorsey",
+    "gender": "male",
+    "company": "REPETWIRE",
+    "email": "sullivandorsey@repetwire.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Burton Baldwin"
+      },
+      {
+        "id": 1,
+        "name": "Magdalena Buchanan"
+      },
+      {
+        "id": 2,
+        "name": "Avila Bennett"
+      }
+    ],
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "58bf1dd701bbe00f2a2e8eab",
+    "index": 4,
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Cynthia Patrick",
+    "gender": "female",
+    "company": "DREAMIA",
+    "email": "cynthiapatrick@dreamia.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Socorro Cobb"
+      },
+      {
+        "id": 1,
+        "name": "Jasmine Moss"
+      },
+      {
+        "id": 2,
+        "name": "Willis Hahn"
+      }
+    ],
+    "favoriteFruit": "strawberry"
+  }
+]

@@ -5,24 +5,28 @@
 	<link rel="stylesheet" href="css/main.css">
 	<title>Document</title>
 </head>
-<body ng-controller="MainCtrl">
-	
-	<div ng-include="'templates/capitalize.ng.html'"></div>
+<body>
+	<div ng-controller="MainCtrl">
+		<div ng-include="'templates/capitalize.ng.html'"></div>
 
-	<div ng-include="'templates/search.ng.html'"></div>
+		<div ng-include="'templates/search.ng.html'"></div>
 
-	<div ng-include="'templates/order-by.ng.html'"></div>
+		<div ng-include="'templates/order-by.ng.html'"></div>
 
-	<div ng-include="'templates/limit-to.ng.html'"></div>
+		<div ng-include="'templates/limit-to.ng.html'"></div>
 
-	<div ng-include="'templates/reverse.ng.html'"></div>
+		<div ng-include="'templates/reverse.ng.html'"></div>
 
-	<div ng-include="'templates/chaining.ng.html'"></div> 
+		<div ng-include="'templates/chaining.ng.html'"></div> 
+	</div>
+	<div ng-include="'templates/http-calls.ng.html'"></div>
 	
 	<script src="../bower_components/angular/angular.js" ></script>
 	<script src="js/app/app.module.js"></script>
 	<script src="js/app/controllers/controller.js"></script>
 	<script src="js/app/controllers/fun.js"></script>
+	<script src="js/app/services/httpService.js"></script>
+	<script src="js/app/controllers/http.js"></script>
 	<script src="js/app/directives/entering.js"></script>
 	<script src="js/app/directives/goodbyeAttr.js"></script>
 	<script src="js/app/directives/hello.js"></script>
@@ -33,6 +37,7 @@
 	<script src="js/app/directives/welcomeAttr.js"></script>
 	<script src="js/app/filters/capitalize.js"></script>
 	<script src="js/app/filters/reverse.js"></script>
+
 
 </body>
 </html>
